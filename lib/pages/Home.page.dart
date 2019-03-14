@@ -34,11 +34,9 @@ class _HomePageState extends State<HomePage> {
                         }
                     ));
                   } else {
-
                     selectedValue = value;
                     setState(() {});
                   }
-
                 })
             ),
             isVertical ? Container() : Expanded(child: DetailWidget(selectedValue))
